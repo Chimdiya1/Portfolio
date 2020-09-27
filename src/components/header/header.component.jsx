@@ -1,12 +1,12 @@
 import React, {useState, useRef, useEffect} from 'react'
 import './header.styles.scss'
-import { TweenLite, Power3 } from 'gsap';
+import { TweenMax, Power3 } from 'gsap';
 const Header = () => {
   const [visible, setVisible] = useState(false);
   let head = useRef(null)
   useEffect(() => {
     console.log(head);
-    TweenLite.from(head, 1, {
+    TweenMax.from(head, 1, {
       opacity: 0,
       y: -200,
       ease: Power3.easeOut,

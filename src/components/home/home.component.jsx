@@ -1,7 +1,7 @@
 import React,{useRef,useEffect} from 'react'
 import './home.styles.scss'
 import lineImg from './line.svg'
-import { TweenLite, Power3,Bounce } from 'gsap';
+import { TweenMax, Power3 } from 'gsap';
 import circles from './circles.png'
 import hire from './hire.png'
 const Home = () => {
@@ -14,24 +14,24 @@ const Home = () => {
   let op2 = useRef(null);
   useEffect(() => {
     console.log(name);
-    TweenLite.staggerFrom([name, p1, p2], 1,{
+    TweenMax.staggerFrom([name, p1, p2], 1,{
       opacity: 0,
       y: 100,
       ease: Power3.easeOut,
       delay: 1,
     },.3);
-    TweenLite.to([blue,blue1], 1, {
+    TweenMax.to([blue,blue1], 1, {
       color: '#0F18FD',
       
       ease: Power3.easeOut,
       delay: 2,
     });
-    TweenLite.from([op1,op2], 5, {
+    TweenMax.from([op1,op2], 5, {
       opacity:0,
       ease: Power3.easeOut,
       delay:3
     });
-    // TweenLite.from(p2, 1, {
+    // TweenMax.from(p2, 1, {
     //   opacity:0,
     //   y: 100,
     //   ease: Power3.easeOut,
