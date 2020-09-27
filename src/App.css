@@ -2,7 +2,7 @@
   background-color: #EFEFFF;
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
-
+  scroll-behavior: smooth;
 }
 *{
   margin: 0;

@@ -8,18 +8,18 @@ const Header = () => {
         <p className="logo">C - 01000011</p>
         <div className={`links ${visible ? `show` : ''}`}>
           <a onClick={() => setVisible(!visible)} href="#projects">
-            Projects
+            PROJECTS
           </a>
           <a onClick={() => setVisible(!visible)} href="#resume">
-            Resume
+            RESUME
           </a>
           <a onClick={() => setVisible(!visible)} href="#contact">
-            Contact
+            CONTACT
           </a>
         </div>
-        <p className="menu" onClick={() => setVisible(!visible)}>
-          {visible ? 'X' : 'MENU'}
-        </p>
+        <div className="menu" onClick={() => setVisible(!visible)}>
+          <span class={`menu__burger ${visible ? 'open' : ''}`}></span>
+        </div>
       </header>
     );
 }

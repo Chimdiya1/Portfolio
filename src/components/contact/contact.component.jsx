@@ -5,7 +5,7 @@ import linkedin from './linkedin.svg';
 import twitter from './twitter.svg';
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h2>Contact.</h2>
       <p className="check">
         My contact details so we can work on that project of yours
