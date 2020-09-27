@@ -1,0 +1,39 @@
+.cursor {
+  width: 70px;
+  height: 70px;
+  background-color:#0011ff52;
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  transition: all 300ms ease-in-out;
+  transition-property:  opacity, background-color, transform, mix-blend-mode;
+  -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    
+    pointer-events: none;
+    &::after {
+    color: rgb(175, 175, 175);
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    position: absolute;
+    background: var(--gray);
+    border-radius: 1px;
+    top: 10px;
+    left: 13px;
+
+  }
+
+}
+.cursor--hidden {
+   opacity: 0;
+ }
+ .cursor--clicked {
+   transform: translate(-50%, -50%) scale(1.9);
+   opacity: 0;
+   background-color: #8d8d8d;
+ }
