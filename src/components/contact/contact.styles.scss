@@ -1,0 +1,84 @@
+.contact{
+    width: 100%;
+    padding: 2rem 20%;
+    position: relative;
+    z-index: 1;
+    
+    
+    .content{
+        display: flex;
+        justify-content: space-between;
+        p{
+            font-size: 14px;
+            margin: 1rem 0;
+            line-height: 18px;
+        }
+        .tagline{
+            color: #696969;
+        }
+        h4{
+            font-size: 36px;
+            color:#121BFF;
+        }
+        .words{
+            width: 60%;
+        }
+        .contact-details{
+            display: flex;
+            flex-direction: column;
+            width: 35%;
+            .icons{
+                display: flex;
+                justify-content: space-between;
+                padding: 1rem;
+            }
+            .shoot{
+                padding: 1rem;
+                background: #4D69FF;
+                border-radius: 10px;
+                text-decoration: none;
+                color: white;
+                width: 100%;
+                text-align: center;
+                margin-top: 8px;
+            }
+        }
+    }
+    @media screen and (max-width:1042px){
+        padding: 8rem 15%;
+    }
+    @media screen and (max-width:992px){
+        .project-grid{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    }
+    @media screen and (max-width:768px){
+        padding: 8rem 4rem;
+        .content{
+        flex-direction: column;
+        align-items: flex-start;
+        .words{
+            width: 90%;
+            text-align: left;
+        }
+        .contact-details{
+            width: 40%;
+            .icons{
+                padding-left: 0px;
+            }
+        }
+        }
+    }
+    @media screen and (max-width:576px){
+        padding: 8rem 1rem;
+        .content{
+        .contact-details{
+            width: 60%;
+          
+        }
+        }
+    }
+}

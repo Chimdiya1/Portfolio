@@ -1,0 +1,98 @@
+header{
+    display: flex;
+    padding: 4rem 8rem;
+    justify-content: space-between;
+    align-items: center;
+    
+    @media screen and (max-width:768px){
+        padding: 2rem 4rem;
+        background-color: #EFEFFF;
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+    }
+    .logo{
+        font-size: 24px;
+        font-weight: 700;
+        @media screen and (max-width:768px){
+            position: fixed;
+        }
+        @media screen and (max-width:576px){
+        left: 1rem;
+        }
+    }
+    .menu{
+          
+
+        display: none;
+        @media screen and (max-width:768px){
+            cursor: pointer;
+            display: block;
+            position: fixed;
+        right: 4rem;
+        }
+        @media screen and (max-width:576px){
+        right: 2rem;
+    }
+    }
+    .links{
+        width: 250px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        a{
+            text-decoration: none;
+            color: black;
+            transition: border-bottom 3s ease-in-out;
+            display: flex;
+            align-items: center;
+            &::after{
+                display:block;
+                content: '';
+                margin-top: .5rem;
+                border-bottom: solid 2px #0F18FD;  
+                transform: scaleX(0);  
+                transition: transform 250ms ease-in-out;
+              
+            }
+            &:hover{
+                &::after{
+                    transform: scaleX(1);
+                }
+            }
+        }
+        @media screen and (max-width:768px){
+                opacity: 0;
+                height:calc(100vh - 64px) ;
+                width: 100vw;
+                top: -100vh;
+                left: 0px;
+                position: fixed;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 1rem;
+                background-color: #EFEFFF;
+                transition: .6s all ease-in-out;
+                z-index: 5;
+               
+            &.show{
+                top: 60px;
+                opacity: 1;
+            }
+            a{
+            text-decoration: none;
+            color: rgb(89, 89, 89);
+            transition: border-bottom 3s ease-in-out;
+            display: flex;
+            align-items: center;
+            margin: 2rem;
+            font-size: 2rem;
+            
+        }
+        }
+    }
+}
