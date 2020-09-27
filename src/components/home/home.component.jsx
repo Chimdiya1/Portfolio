@@ -55,7 +55,7 @@ const Home = () => {
           </span>
           and more to implement solutions that work, design pixel perfect User
           Interfaces and write about what I learn on{' '}
-          <a href="kkk">chimdia.hashnode.dev</a>
+          <a href="https://chimdia.hashnode.dev/">chimdia.hashnode.dev</a>
         </p>
         <img
           ref={(el) => (op1 = el)}
@@ -63,12 +63,7 @@ const Home = () => {
           src={circles}
           alt="circles"
         />
-        <img
-          ref={(el) => (op2 = el)}
-          className="hire"
-          src={hire}
-          alt="hire"
-        />
+        <img ref={(el) => (op2 = el)} className="hire" src={hire} alt="hire" />
       </div>
     );
 }

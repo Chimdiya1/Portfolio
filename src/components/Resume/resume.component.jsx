@@ -15,8 +15,19 @@ const Resume = () => {
       <img className="resume1" src={resume1} alt="resume1" />
       <img className="circle2" src={circle2} alt="circle2" />
       <div className="actions">
-        <div className="button">Share</div>
-        <div className="button">Download</div>
+        <a
+          href="https://docs.google.com/document/d/e/2PACX-1vRs-iHEhoQXHtjKtxkxfopePTAJRLaQ141us7-fOm13K3L48IoaEqSAxUtYzfg0cpU3HPUKuKSYabBz/pub"
+          className="button"
+        >
+          Share
+        </a>
+        <a
+          href="./resume.pdf"
+          download="Chimdia-Anyiam-Resume"
+          className="button"
+        >
+          Download
+        </a>
       </div>
     </div>
   );

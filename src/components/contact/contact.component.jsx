@@ -11,7 +11,7 @@ const Contact = () => {
         My contact details so we can work on that project of yours
       </p>
       <div className="content">
-        <div className='words'>
+        <div className="words">
           <p className="tagline">Want to work with me?</p>
           <h4>Let's Create Magic</h4>
           <p className="search">
@@ -19,19 +19,21 @@ const Contact = () => {
             I can Improve your product with my skills.
           </p>
         </div>
-        <div className='contact-details'>
+        <div className="contact-details">
           <div className="icons">
-            <a href="rgeg">
+            <a href="https://github.com/Chimdiya1">
               <img src={github} alt="github" />
             </a>
-            <a href="rgeg">
+            <a href="https://www.linkedin.com/in/chimdia-anyiam-409857129/">
               <img src={linkedin} alt="linkedin" />
             </a>
-            <a href="rgeg">
+            <a href="https://twitter.com/AnyiamChimdia">
               <img src={twitter} alt="twitter" />
             </a>
           </div>
-          <a className='shoot' href="mailto:fortunechimdiya@gmail.com">Shoot me an email</a>
+          <a className="shoot" href="mailto:fortunechimdiya@gmail.com">
+            Shoot me an email
+          </a>
         </div>
       </div>
     </div>

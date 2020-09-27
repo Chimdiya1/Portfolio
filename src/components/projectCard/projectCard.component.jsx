@@ -1,20 +1,27 @@
 import React from 'react'
 import './projectCard.styles.scss'
-
-const ProjectCard = (prop) => {
+import code from './code.png';
+import view from './view.png';
+const ProjectCard = ({item}) => {
 
     let styles = {
-      'backgroundImage': `url(https://res.cloudinary.com/chimdia/image/upload/v1600986454/portfolio/blogysc.jpg)`,
+      'backgroundImage': `url(${item.imgUrl})`,
     };
     return (
       <div style={styles} className="project-card">
-        <div className='details'>
-          <h4 className="title">Culux</h4>
-          <p className="description">Real Estate listings Platform</p>
-          <p className="stack">React + Redux + SASS + Firebase</p>
-          <div className='links'> 
-            <p>View</p>
-            <p>Code</p>
+        <div className="details">
+          <h4 className="title">{item.name}</h4>
+          <p className="description">{item.description}</p>
+          <p className="stack">{item.stack}</p>
+          <div className="links">
+            <a href={`${item.links[0]}`}>
+              <img src={view} alt="view" /> View
+            </a>
+            <a href={`${item.links[1]}`}>
+              {' '}
+              <img src={code} alt="code" />
+              Code
+            </a>
           </div>
         </div>
       </div>
