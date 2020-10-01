@@ -54,9 +54,13 @@
                 color: black;
                 display: flex;
                 align-items: center;
+                font-size: 14px;
                 .icon{
                     width: 20px;
                     margin-right: .2rem;
+                }
+                &:hover{
+                    color: #121BFF;
                 }
             }
         }

@@ -37,7 +37,7 @@ const Cursor = () => {
    };
 
     const onMouseMove = (e) => {
-        setPosition({ x: e.clientX-10, y: e.clientY-10 });
+        setPosition({ x: e.clientX, y: e.clientY });
     };
     const onMouseDown = () => {
         setClicked(true);

@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="contact" id="contact">
       <h2>Contact.</h2>
       <p className="check">
-        My contact details so we can work on that project of yours
+        Contact me so we can work on that awesome project of yours!!
       </p>
       <div className="content">
         <div className="words">

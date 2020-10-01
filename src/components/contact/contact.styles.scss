@@ -41,6 +41,11 @@
                 width: 100%;
                 text-align: center;
                 margin-top: 8px;
+                &:hover{
+                background-color: #ffffff;
+                border: 1px solid #4D69FF;
+                color: #4D69FF;
+            }
             }
         }
     }
