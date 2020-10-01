@@ -7,7 +7,7 @@ import { faEye, faCode } from '@fortawesome/free-solid-svg-icons';
 const ProjectCard = ({item}) => {
 
     let styles = {
-      backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(${item.imgUrl})`,
+      backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ),url(${item.imgUrl})`,
     };
     return (
       <div style={styles} className="project-card">
