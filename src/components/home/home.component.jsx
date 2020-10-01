@@ -4,6 +4,8 @@ import lineImg from './line.svg'
 import { TweenMax, Power3 } from 'gsap';
 import circles from './circles.png'
 import hire from './hire.png'
+
+
 const Home = () => {
   let name = useRef(null);
   let p1 = useRef(null);
@@ -45,8 +47,12 @@ const Home = () => {
         </h1>
         {/* <img ref={(el) => (line = el)} className="line" src={lineImg} alt="line" /> */}
         <p ref={(el) => (p1 = el)}>
-          Software Engineer with strong passion for technology that makes lives.
-          I love food, music and anything that has to do with water.
+          Software Engineer with strong passion for technology that makes lives
+          easier.My background in Computer Science has led me to explore
+          different aspects of the field and I have chosen to stick with front
+          end web development for now. Fueled by my passion for learning how
+          things work and being a creative problem solver, I am always learning
+          and picking up new things everyday(tech or not) and I consider myself a student of the universe.
         </p>
         <p ref={(el) => (p2 = el)}>
           When I’m not sleeping, I primarily use{' '}

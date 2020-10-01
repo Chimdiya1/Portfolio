@@ -16,7 +16,7 @@ const Contact = () => {
           <h4>Let's Create Magic</h4>
           <p className="search">
             I am actively searching for opportunities and would love to know how
-            I can Improve your product with my skills.
+            I can Improve / contribute to your product with my skills.
           </p>
         </div>
         <div className="contact-details">

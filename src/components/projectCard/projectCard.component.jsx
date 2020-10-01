@@ -2,6 +2,8 @@ import React from 'react'
 import './projectCard.styles.scss'
 import code from './code.png';
 import view from './view.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye, faCode } from '@fortawesome/free-solid-svg-icons';
 const ProjectCard = ({item}) => {
 
     let styles = {
@@ -15,11 +17,11 @@ const ProjectCard = ({item}) => {
           <p className="stack">{item.stack}</p>
           <div className="links">
             <a href={`${item.links[0]}`}>
-              <img src={view} alt="view" /> View
+              <FontAwesomeIcon className='icon' icon={faEye} />View
             </a>
             <a href={`${item.links[1]}`}>
               {' '}
-              <img src={code} alt="code" />
+              <FontAwesomeIcon className='icon' icon={faCode} />
               Code
             </a>
           </div>

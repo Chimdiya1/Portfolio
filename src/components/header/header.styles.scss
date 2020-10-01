@@ -92,6 +92,7 @@ header{
             transition: border-bottom 3s ease-in-out;
             display: flex;
             align-items: center;
+            transition: all 250ms ease-in-out;
             &::after{
                 display:block;
                 content: '';
@@ -102,16 +103,14 @@ header{
               
             }
             &:hover{
-                &::after{
-                    transform: scaleX(1);
-                }
+                color: #0F18FD;
             }
         }
         @media screen and (max-width:768px){
                 opacity: 0;
                 height:calc(100vh - 60px) ;
                 width: 100vw;
-                top: -100vh;
+                top: 9vh;
                 left: 0px;
                 position: fixed;
                 align-items: center;
