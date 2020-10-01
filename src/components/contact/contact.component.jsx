@@ -21,13 +21,25 @@ const Contact = () => {
         </div>
         <div className="contact-details">
           <div className="icons">
-            <a href="https://github.com/Chimdiya1">
+            <a
+              href="https://github.com/Chimdiya1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={github} alt="github" />
             </a>
-            <a href="https://www.linkedin.com/in/chimdia-anyiam-409857129/">
+            <a
+              href="https://www.linkedin.com/in/chimdia-anyiam-409857129/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={linkedin} alt="linkedin" />
             </a>
-            <a href="https://twitter.com/AnyiamChimdia">
+            <a
+              href="https://twitter.com/AnyiamChimdia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={twitter} alt="twitter" />
             </a>
           </div>

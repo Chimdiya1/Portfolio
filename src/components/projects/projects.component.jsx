@@ -11,10 +11,7 @@ const projectsList = [
     name: 'Culux Real Estate',
     description: 'Real estate listings platform',
     stack: 'React + Firebase + Redux + Styled Components',
-    links: [
-      'https://www.culuxrealestate.com',
-      'https://www.culuxrealestate.com/',
-    ],
+    links: ['https://www.culuxrealestate.com', ''],
   },
   {
     imgUrl:
@@ -24,7 +21,7 @@ const projectsList = [
     stack: 'HTML + CSS + JS + GSAP ',
     links: [
       'https://igbo-amaka.netlify.app/',
-      'https://www.culuxrealestate.com/',
+      'https://github.com/Chimdiya1/igbo_amaka',
     ],
   },
   {
@@ -35,18 +32,18 @@ const projectsList = [
     stack: 'MongoDB + Express + Node + React ',
     links: [
       'https://bloggy11.netlify.app/',
-      'https://www.culuxrealestate.com/',
+      'https://github.com/Chimdiya1/blog',
     ],
   },
   {
     imgUrl:
       'https://res.cloudinary.com/chimdia/image/upload/v1601223357/portfolio/port.jpg',
     name: 'My Portfolio',
-    description: 'This surrent portfolio',
+    description: 'My portfolio',
     stack: 'React + GSAP ',
     links: [
-      'https://www.culuxrealestate.com',
-      'https://www.culuxrealestate.com/',
+      '/',
+      'https://github.com/Chimdiya1/portfolio',
     ],
   },
   {
@@ -57,7 +54,7 @@ const projectsList = [
     stack: 'React + Redux + Styled Components + Firebase ',
     links: [
       'https://chi-clothing.herokuapp.com/',
-      'https://www.culuxrealestate.com/',
+      'https://github.com/Chimdiya1/crwn-clothing',
     ],
   },
   {
@@ -68,7 +65,7 @@ const projectsList = [
     stack: 'HTML + CSS + JS ',
     links: [
       'https://www.principalpaints.com/',
-      'https://www.culuxrealestate.com/',
+      'https://github.com/Chimdiya1/principalpaints',
     ],
   },
   {
@@ -79,7 +76,7 @@ const projectsList = [
     stack: 'HTML + CSS + JS ',
     links: [
       'https://huddleinc.netlify.app/',
-      'https://www.culuxrealestate.com/',
+      'https://github.com/Chimdiya1/huddle',
     ],
   },
 ];

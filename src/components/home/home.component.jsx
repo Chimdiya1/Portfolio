@@ -52,7 +52,8 @@ const Home = () => {
           different aspects of the field and I have chosen to stick with front
           end web development for now. Fueled by my passion for learning how
           things work and being a creative problem solver, I am always learning
-          and picking up new things everyday(tech or not) and I consider myself a student of the universe.
+          and picking up new things everyday(tech or not) and I consider myself
+          a student of the universe.
         </p>
         <p ref={(el) => (p2 = el)}>
           When I’m not sleeping, I primarily use{' '}
@@ -61,7 +62,13 @@ const Home = () => {
           </span>
           and more to implement solutions that work, design pixel perfect User
           Interfaces and write about what I learn on{' '}
-          <a href="https://chimdia.hashnode.dev/">chimdia.hashnode.dev</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://chimdia.hashnode.dev/"
+          >
+            chimdia.hashnode.dev
+          </a>
         </p>
         <img
           ref={(el) => (op1 = el)}

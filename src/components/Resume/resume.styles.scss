@@ -31,6 +31,7 @@
             padding: 1rem;
             text-decoration: none;
             background-color: #4D69FF;
+            border: 1px solid #4D69FF;
             width: 45%;
             border-radius: 10px;
             display: flex;
@@ -41,8 +42,9 @@
             transition: all .3s ease-in-out;
             cursor: pointer;
             &:hover{
-                background-color: #0429ff;
-
+                background-color: #ffffff;
+                border: 1px solid #4D69FF;
+                color: #4D69FF;
             }
         }
     }

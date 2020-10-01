@@ -15,6 +15,8 @@ const Resume = () => {
       <img className="circle2" src={circle2} alt="circle2" />
       <div className="actions">
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://docs.google.com/document/d/e/2PACX-1vRs-iHEhoQXHtjKtxkxfopePTAJRLaQ141us7-fOm13K3L48IoaEqSAxUtYzfg0cpU3HPUKuKSYabBz/pub"
           className="button"
         >

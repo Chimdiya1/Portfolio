@@ -7,7 +7,7 @@ import { faEye, faCode } from '@fortawesome/free-solid-svg-icons';
 const ProjectCard = ({item}) => {
 
     let styles = {
-      'backgroundImage': `url(${item.imgUrl})`,
+      backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url(${item.imgUrl})`,
     };
     return (
       <div style={styles} className="project-card">
@@ -16,14 +16,24 @@ const ProjectCard = ({item}) => {
           <p className="description">{item.description}</p>
           <p className="stack">{item.stack}</p>
           <div className="links">
-            <a href={`${item.links[0]}`}>
-              <FontAwesomeIcon className='icon' icon={faEye} />View
+            <a
+              href={`${item.links[0]}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon className="icon" icon={faEye} />
+              View
             </a>
-            <a href={`${item.links[1]}`}>
+            {item.links[1]!==''?<a
+              href={`${item.links[1]}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {' '}
-              <FontAwesomeIcon className='icon' icon={faCode} />
+              <FontAwesomeIcon className="icon" icon={faCode} />
               Code
-            </a>
+            </a>:''}
+            
           </div>
         </div>
       </div>
