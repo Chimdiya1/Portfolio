@@ -20,18 +20,18 @@ const Home = () => {
       opacity: 0,
       y: 100,
       ease: Power3.easeOut,
-      delay: 1,
+      delay: 1.5,
     },.3);
     TweenMax.to([blue,blue1], 1, {
       color: '#0F18FD',
       
       ease: Power3.easeOut,
-      delay: 2,
+      delay: 2.5,
     });
     TweenMax.from([op1,op2], 5, {
       opacity:0,
       ease: Power3.easeOut,
-      delay:3
+      delay:3.5
     });
     // TweenMax.from(p2, 1, {
     //   opacity:0,

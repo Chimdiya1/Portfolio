@@ -1,7 +1,5 @@
 import React from 'react'
 import './projectCard.styles.scss'
-import code from './code.png';
-import view from './view.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faCode } from '@fortawesome/free-solid-svg-icons';
 const ProjectCard = ({item}) => {

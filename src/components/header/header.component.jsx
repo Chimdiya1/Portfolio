@@ -1,6 +1,6 @@
 import React, {useState, useRef, useEffect} from 'react'
 import './header.styles.scss'
-import { TweenMax, Power3 } from 'gsap';
+import { TweenMax, Power3, } from 'gsap';
 const Header = () => {
   const [visible, setVisible] = useState(false);
   let head = useRef(null)
@@ -10,9 +10,10 @@ const Header = () => {
       opacity: 0,
       y: -200,
       ease: Power3.easeOut,
+      delay: .5,
     });
 
-  }, [])
+  }, []) 
   console.log(head)
     return (
       <header ref={el=>(head = el)}>
