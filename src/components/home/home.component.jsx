@@ -20,18 +20,18 @@ const Home = () => {
       opacity: 0,
       y: 100,
       ease: Power3.easeOut,
-      delay: 1.5,
+      delay: 2,
     },.3);
     TweenMax.to([blue,blue1], 1, {
       color: '#0F18FD',
       
       ease: Power3.easeOut,
-      delay: 2.5,
+      delay: 3,
     });
     TweenMax.from([op1,op2], 5, {
       opacity:0,
       ease: Power3.easeOut,
-      delay:3.5
+      delay:3
     });
     // TweenMax.from(p2, 1, {
     //   opacity:0,
@@ -47,10 +47,9 @@ const Home = () => {
         </h1>
         {/* <img ref={(el) => (line = el)} className="line" src={lineImg} alt="line" /> */}
         <p ref={(el) => (p1 = el)}>
-          Software Engineer with strong passion for technology that makes lives
-          easier.My background in Computer Science has led me to explore
-          different aspects of the field and I have chosen to stick with front
-          end web development for now. Fueled by my passion for learning how
+          Software Engineer with love for technology that makes lives
+          easier. My background in Computer Science has led me to explore
+          different aspects of the field and I have chosen to stick with Web development for now. Fueled by my passion for learning how
           things work and being a creative problem solver, I am always learning
           and picking up new things everyday(tech or not) and I consider myself
           a student of the universe.

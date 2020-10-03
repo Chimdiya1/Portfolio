@@ -10,7 +10,7 @@ const Header = () => {
       opacity: 0,
       y: -200,
       ease: Power3.easeOut,
-      delay: .5,
+      delay: 1,
     });
 
   }, []) 
