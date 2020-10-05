@@ -5,7 +5,6 @@ const Header = () => {
   const [visible, setVisible] = useState(false);
   let head = useRef(null)
   useEffect(() => {
-    console.log(head);
     TweenMax.from(head, 1, {
       opacity: 0,
       y: -200,
@@ -14,7 +13,6 @@ const Header = () => {
     });
 
   }, []) 
-  console.log(head)
     return (
       <header ref={el=>(head = el)}>
         <p className="logo">C - 01000011</p>

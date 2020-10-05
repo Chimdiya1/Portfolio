@@ -15,7 +15,6 @@ const Home = () => {
   let op1 = useRef(null);
   let op2 = useRef(null);
   useEffect(() => {
-    console.log(name);
     TweenMax.staggerFrom([name, p1, p2], 1,{
       opacity: 0,
       y: 100,
